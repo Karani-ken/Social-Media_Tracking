@@ -42,23 +42,23 @@
     background-color: var(--neutral-very-dark-blue-bg);
     color: var(--neutral-white-text);
   }
+  .dark-theme .card{
+    background: var(--neutral-dark-desaturated-blue-card-bg);
+    border-radius: 6px;
+  }
   
   /* Light Theme */
-.light-theme {
+/* .light-theme {
     background-color: var(--neutral-white-bg);
     color: var(--neutral-dark-grayish-blue-text);
-}
-
-/* body{
-    background-color: var(--neutral-very-dark-blue-bg);
-    color: var(--neutral-white-text);
 } */
+
 .container{
 height: 100vh;
 width: 100%;
 display: flex;
 justify-content: center;
-/* background-color: var(--neutral-very-dark-blue-bg); */
+
 }
 .content{
 display: flex;
@@ -83,7 +83,6 @@ gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     /* margin-top: 20px; */
-    
 }
 .dashboard-container .card{
     border-top: 2px solid var(--primary-lime-green);
